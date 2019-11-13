@@ -58,10 +58,10 @@ const Meniu = ({showMemeSelectionClicked, generateMeme, meme, error}) => {
 
     return(
         <MeniuContainer onSubmit={generateMeme}>
-            <DefaultButton first={1} animate={!memeSet && true} type="button" onClick={showMemeSelectionClicked}> Select meme </DefaultButton>
+            <DefaultButton animate={!memeSet && true} type="button" onClick={showMemeSelectionClicked}> Select meme </DefaultButton>
             {inputs}
-            <DefaultButton animate={memeSet && true} type="submit"> Generate meme</DefaultButton>
             <ErrorMessage error={error ? 1 : 0}>{error}</ErrorMessage>
+            <DefaultButton animate={memeSet && true} type="submit"> Generate meme</DefaultButton>
         </MeniuContainer>
     );
 };

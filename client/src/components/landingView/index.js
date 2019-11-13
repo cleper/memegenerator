@@ -38,13 +38,10 @@ const LandingView = () => {
 
     return(
         <LandingViewContainer>
-            <LandingViewHeader> A simple meme generator using imgflip api </LandingViewHeader>
+            <LandingViewHeader> A meme generator using imgflip api </LandingViewHeader>
             <MemeGenerator showMemeSelectionClicked={showMemeSelectionClicked} currentMeme={currentMeme} setCurrentMeme={setMeme}/>
             <MemeSelectionContainer  show={showMemeSelection}>
                 <MemeSelection memes={memes.slice(0, 10)} setMeme={setMeme}/>
-            {/* {
-               loading === false && memes.map(meme => <Meme onClick={setMeme.bind(null, meme)} key={meme.id} src={meme.url}/>)
-            } */}
             </MemeSelectionContainer>
         </LandingViewContainer>
     );
