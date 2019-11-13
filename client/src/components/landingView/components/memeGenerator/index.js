@@ -18,7 +18,7 @@ const MemeGenerator = ({showMemeSelectionClicked, currentMeme, setCurrentMeme}) 
         e.preventDefault();
         const inputs = [...e.target.elements].filter(element => element.tagName === "INPUT").map(input => input.value);
         if(validateInputs(inputs))
-        {
+        {   
             fetch(POST_MEMES_API, {
                 method: 'POST',
                 headers: {
