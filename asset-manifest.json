@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/memegenerator/static/js/main.f9ebedb1.chunk.js",
+    "main.js.map": "/memegenerator/static/js/main.f9ebedb1.chunk.js.map",
+    "runtime-main.js": "/memegenerator/static/js/runtime-main.4950a7c5.js",
+    "runtime-main.js.map": "/memegenerator/static/js/runtime-main.4950a7c5.js.map",
+    "static/js/2.58df7264.chunk.js": "/memegenerator/static/js/2.58df7264.chunk.js",
+    "static/js/2.58df7264.chunk.js.map": "/memegenerator/static/js/2.58df7264.chunk.js.map",
+    "index.html": "/memegenerator/index.html",
+    "precache-manifest.665b9defe56f141cc85537f6b476ca46.js": "/memegenerator/precache-manifest.665b9defe56f141cc85537f6b476ca46.js",
+    "service-worker.js": "/memegenerator/service-worker.js",
+    "static/media/fjalloneregular.ttf": "/memegenerator/static/media/fjalloneregular.c112622e.ttf",
+    "static/media/memebackground.svg": "/memegenerator/static/media/memebackground.7f1e5c9a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4950a7c5.js",
+    "static/js/2.58df7264.chunk.js",
+    "static/js/main.f9ebedb1.chunk.js"
+  ]
+}
